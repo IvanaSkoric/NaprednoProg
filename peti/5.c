@@ -62,12 +62,11 @@ void printList (struct Node *node)
 int main()
 {
 	struct Node *node=NULL;
-	int a, i;
+	int i;
 	for (i=0; i<9; i++)
 	{
-		printf("Enter the nubmer:");
-		scanf("%d", &a);
-		push(&node, a);
+		
+		push(&node, i);
 		
 		}
 	
