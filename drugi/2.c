@@ -52,11 +52,6 @@ int brojac = 0;
 		node=node->next;
 		brojac++;
 	}
-	
-	printf("\n Elementi s parnim indeksom: ");
-	printList(parni);
-	printf("\n Elementi s neparnim indeksom: ");
-	printList(neparni);
 
 }
 
@@ -73,6 +68,10 @@ int brojac = 0;
 		}
 		
 	svaki_drugi(node);
+	printf("\n Elementi s parnim indeksom: ");
+	printList(parni);
+	printf("\n Elementi s neparnim indeksom: ");
+	printList(neparni);
 	return 0;
 	
 	
